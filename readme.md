@@ -57,6 +57,17 @@ python main.py
 
 EduBot will then perform the analysis and generate a DOCX report based on the `template.docx` file.
 
+## Notes
+
+- Program uses the 'gpt-4' model which is limited to around 8k tokens. Keep the date ranges short to ensure proper operations.
+- If longer date ranges are required, use the 'gpt-4-32k' model by editing the gptConn.py file and changing the model.
+
+## Left to do
+
+- Create a GUI for the main app
+- refactor the code where needed
+- add proper validation for additional bad user input such as a endDate ending sooner than the startDate
+
 ## Contributing
 
 We welcome contributions to EduBot! If you have suggestions for improvements or encounter any issues, please feel free to open an issue or submit a pull request.
