@@ -61,6 +61,8 @@ EduBot will then perform the analysis and generate a DOCX report based on the `t
 
 - Program uses the 'gpt-4' model which is limited to around 8k tokens. Keep the date ranges short to ensure proper operations.
 - If longer date ranges are required, use the 'gpt-4-32k' model by editing the gptConn.py file and changing the model.
+- Do not alter the template.docx file.
+- Analysis document will be created with the following naming convention: "Academics Deep Dive - {student_name} - {start_date} to {end_date}.docx"
 
 ## Left to do
 
