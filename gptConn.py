@@ -75,7 +75,8 @@ Student metrics coaching json: {studentCoaching}"""
                     "content": promptText
                 }
             ],
-            model="gpt-4"
+            response_format={ "type": "json_object" },
+            model="gpt-4-turbo-preview"
         )
 
     except Exception as e:
